@@ -1,0 +1,73 @@
+@import 'colors';
+@import 'fonts';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font;
+    #btn-style {
+        background-color: $orange-color;
+    }
+}
+
+.first {
+    background: linear-gradient(180deg, #ffffff 0%, #f4fbfb 100%);
+}
+.card {
+    background: linear-gradient(180deg, #6cc8c6 0%, #00918d 100%);
+}
+
+.second .card {
+    background: #ffffff;
+}
+
+span {
+    color: $orange-color;
+    font-family: $font;
+}
+
+.second {
+    background: #ffffff;
+}
+
+.third {
+    background: #6cc8c6;
+}
+
+.card-diff {
+    background: #f4fbfb;
+    border: 1px solid #e9f6f6;
+    border-radius: 10px;
+    color: #0e2525;
+    height: 467.55px;
+}
+
+.complete {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    .complete-img {
+        width: 640px;
+        height: 470px;
+
+        .manImg {
+            width: 630px;
+            height: 465px;
+        }
+    }
+}
+
+table img {
+    height: 37px;
+    width: 37px;
+}
+
+#collapseExample {
+    background: #ffffff;
+}
+
+.imaginary div {
+    background: #f4fbfb;
+}

@@ -1,0 +1,10 @@
+$font: Museo Cyrl;
+
+@mixin normalText($color, $fsize, $lineH) {
+    font-family: $font;
+    font-style: normal;
+    font-weight: 600;
+    font-size: $fsize;
+    line-height: $lineH;
+    color: $color;
+}
